@@ -2,9 +2,9 @@
 using System;
 using System.Windows.Forms;
 
-public class $safeprojectname$ : Script
+public class CaliberDebug : Script
 {
-    public $safeprojectname$()
+    public CaliberDebug()
     {
         Tick += OnTick;
         KeyDown += OnKeyDown;
