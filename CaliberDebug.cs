@@ -19,10 +19,10 @@ public class CaliberDebug : Script
     }
     void OnKeyDown(object sender, KeyEventArgs e)
     {
-
+        UI.Notify("You activated your mod.");
     }
     void OnKeyUp(object sender, KeyEventArgs e)
     {
-
+        UI.Notify("You activated your mod.");
     }
 }
